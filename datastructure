@@ -2,16 +2,26 @@
 using namespace std;
 
 int main() {
-    int a, b;
+    int n;
+    cin >> n;
 
-    cout << "Enter two numbers: ";
-    cin >> a >> b;
+    for(int i = 0; i < n; i++) {
+        cout << i << " ";
+    }
 
-    int sum = a + b;
-    int difference = a - b;
+    cout << endl;
 
-    cout << "Addition = " << sum << endl;
-    cout << "Subtraction = " << difference << endl;
+    int j = 0;
+    while(j < n) {
+        cout << j << " ";
+        j++;
+    }
+
+    cout << endl;
+
+    for(int k = 0; k < n; k++) {
+        cout << k * 2 << " ";
+    }
 
     return 0;
 }
